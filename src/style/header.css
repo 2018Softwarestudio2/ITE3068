@@ -1,0 +1,25 @@
+#title_board{
+	margin:0 auto;
+	color: white;
+	width: calc(100% - 2px);
+	height: 50px;
+	background-color: #282828;
+	border: 1px solid #3C3C3C;
+	box-shadow: 3px 3px 3px black;
+
+	
+}
+
+#title_board #content{
+	margin-left: 20px;
+	line-height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+	float:left;
+}
+#title_board #address{
+	margin-left : 88%;
+	line-height: 50px;
+	font-family: Arial;
+	font-weight: bold;
+}
