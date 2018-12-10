@@ -1,0 +1,13 @@
+circle.particle {
+    fill: white;
+    stroke: none;
+}
+.particlebox svg {
+
+    background-color: #1E1E1E;
+}
+.particlebox{
+	margin-top: 5px;
+	margin-left: 7px;
+	margin-bottom: -586px;
+}

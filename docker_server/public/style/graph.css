@@ -1,0 +1,35 @@
+.linegraphbox{
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-left: 10px;
+	width : 450px;
+	height : 245px;
+	background-color: #1F1F1F;
+	border: 1px solid #323232;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px black;
+
+}
+
+
+#graph_name{
+	margin:5px;
+	height:30px;
+	line-height: 30px;
+	font-size: 14px;
+	color:white;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.line {
+ 	fill: none;
+ 	stroke: steelblue;
+ 	stroke-width: 1.5px;
+}
+
+#TPS .line{
+	fill: none;
+ 	stroke: steelblue;
+ 	stroke-width: 1.5px;
+}
