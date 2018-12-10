@@ -9,6 +9,7 @@ const HOST = '0.0.0.0';
 // 앱
 const app = express();
 var router = require('./router/main')(app);
+var database = require('./router/mysql');
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');

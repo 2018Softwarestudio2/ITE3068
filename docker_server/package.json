@@ -9,13 +9,14 @@
   },
   "dependencies": {
     "express": "^4.16.1",
-    "ejs": "^2.4.1"
+    "ejs": "^2.4.1",
     "react": "^16.6.3",
     "react-dom": "16.6.3",
-    "react-script": "2.1.1",
+    "react-scripts": "2.1.1",
     "d3": "^5.7.0",
     "d3-axis": "^1.0.12",
-    "axois": "^0.18.0"
+    "axios": "^0.18.0",
+    "mysql": "^2.16.0"
   }
 }
 
