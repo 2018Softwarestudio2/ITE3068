@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../public/style/logview.css';
+import './style/logview.css';
 
 class Viewer extends React.Component{
 	constructor(props){

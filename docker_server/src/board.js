@@ -5,7 +5,7 @@ import Viewer from './logview';
 import Arcgraph from './chart/arcgraph';
 import Diskcapa from './chart/disk'
 import Particle from './chart/particle';
-import '../public/style/board.css';
+import './style/board.css';
 
 class Board extends React.Component{
 	constructor(props){

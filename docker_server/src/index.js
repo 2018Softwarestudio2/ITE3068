@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Board from './board';
 import Header from './header'
-import '../public/style/index.css';
+import './style/index.css';
 
 class App extends React.Component{
 	constructor(props){

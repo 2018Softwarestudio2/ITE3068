@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../public/style/header.css';
+import './style/header.css';
 
 class Header extends React.Component{
 	

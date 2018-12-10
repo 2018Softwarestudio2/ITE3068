@@ -62,9 +62,9 @@ class LineGraph extends React.Component{
     .transition()
     .duration(1000)
     .ease(d3.easeLinear)
-   
+    .on("start",tick)
 
-/*function tick() {
+function tick() {
  
   data.push(random());
   d3.select(this)
@@ -77,21 +77,8 @@ class LineGraph extends React.Component{
       .on("start", tick);
   
   data.shift();
-}*/
-setInterval(function() {
- 
-  data.push(random());
-  d3.select(this)
-      .attr("d", line)
-      .attr("transform", null);
+}
 
-  d3.active(this)
-      .attr("transform", "translate(" + x(-1) + ",0)")
-    .transition()
-      .on("start", tick);
-  
-  data.shift();
-},1000)
 
   } 
         
